@@ -7,14 +7,14 @@ This github repository will walk you through setting up your Git and GitHub acco
 ## Checklist
 
 - [x] View this README  
-- [ ] Create a GitHub Account  
-- [ ] Open your Command Line Interface  
-- [ ] Setting up your Username and Email  
-- [ ] Setting up your Authentication  
-- [ ] Forking a Repository  
-- [ ] Cloning a Repository  
-- [ ] Making Changes to the Repository  
-- [ ] Commiting Changes Locally  
+- [X ] Create a GitHub Account  
+- [X] Open your Command Line Interface  
+- [X] Setting up your Username and Email  
+- [X ] Setting up your Authentication  
+- [X] Forking a Repository  
+- [X] Cloning a Repository  
+- [X] Making Changes to the Repository  
+- [X] Commiting Changes Locally  
 - [ ] Moving Changes to GitHub   
 - [ ] Standard Work Flow
 
@@ -62,7 +62,7 @@ Windows
     ```
     git config --list
     ```
-    
+
     You should see two lines in this list matching your values! Other lines are likely in the list as well.
     ```
     user.name=Radhika Zaur
@@ -94,7 +94,7 @@ Windows
 3. Under `Repository name`, you may adjust the name of the repository if you like.
 4. On the bottom of the page select `Create fork`.
 5. You should be redirected to a new repository associated with your user account on GitHub.  
-  
+
 **Note:** Backend Developers - Forking will automatically occur with your subsequent repositories. You will likely fork repos for personal or later career uses though.
 
 ---
@@ -108,7 +108,7 @@ Windows
 4. On your Command Line Interface, begin by moving to the directory you will store this repository.  
     Example: `cd ~/Bloom-Repos/`  
     If you need to build a new directory, follow these steps:  
-    ``` 
+    ```
     cd ~
     mkdir Bloom-Repos
     cd Bloom-Repos
@@ -122,7 +122,7 @@ Windows
 ## Making Changes to the Repository
 *This step will typically involve you working on your project with integrated development environments.*
 1. Move into the repository you cloned in your CLI by typing: `cd bd-orientation`. Your directory name may be slightly different.
-2. Type `ls`. You should see a file called README.md. 
+2. Type `ls`. You should see a file called README.md.
 3. Your next goal is to open that file and edit it. Instructions below will use a basic text editor, but you may open the file any way you wish to modify the text inside.  
     > MacOS: type `open -e README.md`  
     > Windows: type `notepad README.md`
@@ -137,7 +137,7 @@ Windows
 
 ## Commiting Changes Locally
 *This step will typically be done one or more times on a project. Larger projects may require you to complete this step many times.*
-1. On your Command Line, type: 
+1. On your Command Line, type:
     ```
     git add .
     ```  
@@ -174,8 +174,6 @@ Windows
 ---
 
 ## Congratulations! ##
-Git will be a tool you likely use daily throughout your career. 
+Git will be a tool you likely use daily throughout your career.
 
 This was a minimal dive into Git to make certain your computer's environment is set correctly. A deeper-dive into Git with additional functionality and explanations will be part of your continued learning at BloomTech.
-
-
